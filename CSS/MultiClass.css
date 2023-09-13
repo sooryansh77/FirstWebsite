@@ -1,0 +1,12 @@
+.odd{
+    font-size: 32px;
+    color: blueviolet;
+}
+.even{
+    border: 1px solid black;
+}
+/* Target those element that has the following classes
+Space and no-space matters a lot */
+.odd.even{
+    background-color: aqua;
+}
